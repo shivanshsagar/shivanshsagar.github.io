@@ -1,0 +1,35 @@
+[
+  {
+    "id": "aws-saa",
+    "title": "AWS Certified Solutions Architect \u2013 Associate",
+    "issuer": "Amazon Web Services",
+    "issuerShort": "AWS",
+    "date": "2022",
+    "credentialId": "PLACEHOLDER-CREDENTIAL-ID",
+    "verifyUrl": "https://aws.amazon.com/verification",
+    "color": "#FF9900",
+    "status": "active"
+  },
+  {
+    "id": "gcp-ace",
+    "title": "Google Cloud Associate Cloud Engineer",
+    "issuer": "Google Cloud",
+    "issuerShort": "GCP",
+    "date": "2023",
+    "credentialId": "PLACEHOLDER-CREDENTIAL-ID",
+    "verifyUrl": "https://google.com/verification",
+    "color": "#4285F4",
+    "status": "active"
+  },
+  {
+    "id": "cisco-ccna",
+    "title": "Cisco CCNA",
+    "issuer": "Cisco",
+    "issuerShort": "Cisco",
+    "date": "2021",
+    "credentialId": "PLACEHOLDER-CREDENTIAL-ID",
+    "verifyUrl": "https://cisco.com/verification",
+    "color": "#1BA0D7",
+    "status": "active"
+  }
+]

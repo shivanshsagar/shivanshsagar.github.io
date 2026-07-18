@@ -1,0 +1,32 @@
+[
+  {
+    "id": "1",
+    "name": "[Manager Name]",
+    "role": "Engineering Manager",
+    "company": "CloudKeeper",
+    "avatar": null,
+    "text": "Shivansh consistently delivers exceptional work. His ability to design scalable, cost-efficient AWS architectures while maintaining production reliability is remarkable. He\u2019s one of the most technically sharp engineers I\u2019ve worked with.",
+    "linkedinUrl": "#",
+    "type": "manager"
+  },
+  {
+    "id": "2",
+    "name": "[Customer Name]",
+    "role": "CTO",
+    "company": "Enterprise Customer",
+    "avatar": null,
+    "text": "Shivansh\u2019s architecture review transformed our cloud infrastructure. He identified critical security gaps and cost optimization opportunities we hadn\u2019t considered. His recommendations saved us significantly on our AWS bill.",
+    "linkedinUrl": "#",
+    "type": "customer"
+  },
+  {
+    "id": "3",
+    "name": "[Colleague Name]",
+    "role": "Senior Cloud Engineer",
+    "company": "CloudKeeper",
+    "avatar": null,
+    "text": "Working alongside Shivansh has been a masterclass in cloud engineering. His depth of AWS knowledge, attention to detail in documentation, and ability to build elegant automation solutions are truly impressive.",
+    "linkedinUrl": "#",
+    "type": "colleague"
+  }
+]

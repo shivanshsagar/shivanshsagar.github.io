@@ -1,0 +1,295 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ========================
+   CSS Custom Properties
+   ======================== */
+:root {
+  --background: 240 10% 4%;
+  --foreground: 0 0% 98%;
+  --card: 240 10% 6%;
+  --card-foreground: 0 0% 98%;
+  --border: 240 6% 12%;
+  --input: 240 6% 12%;
+  --primary: 33 100% 50%;
+  --primary-foreground: 240 10% 4%;
+  --secondary: 240 6% 10%;
+  --secondary-foreground: 0 0% 90%;
+  --muted: 240 6% 10%;
+  --muted-foreground: 240 5% 55%;
+  --accent: 195 100% 50%;
+  --accent-foreground: 240 10% 4%;
+  --radius: 0.75rem;
+}
+
+.dark {
+  --background: 240 10% 4%;
+  --foreground: 0 0% 98%;
+  --card: 240 10% 6%;
+  --card-foreground: 0 0% 98%;
+  --border: 240 6% 12%;
+  --input: 240 6% 12%;
+  --primary: 33 100% 50%;
+  --primary-foreground: 240 10% 4%;
+  --secondary: 240 6% 10%;
+  --secondary-foreground: 0 0% 90%;
+  --muted: 240 6% 10%;
+  --muted-foreground: 240 5% 55%;
+  --accent: 195 100% 50%;
+  --accent-foreground: 240 10% 4%;
+}
+
+.light {
+  --background: 0 0% 99%;
+  --foreground: 240 10% 8%;
+  --card: 0 0% 97%;
+  --card-foreground: 240 10% 8%;
+  --border: 240 6% 88%;
+  --input: 240 6% 88%;
+  --primary: 33 100% 45%;
+  --primary-foreground: 0 0% 100%;
+  --secondary: 240 5% 94%;
+  --secondary-foreground: 240 10% 20%;
+  --muted: 240 5% 94%;
+  --muted-foreground: 240 4% 46%;
+  --accent: 195 100% 40%;
+  --accent-foreground: 0 0% 100%;
+}
+
+/* ========================
+   Base Styles
+   ======================== */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 16px;
+}
+
+body {
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  background-color: hsl(var(--background));
+  color: hsl(var(--foreground));
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+
+/* ========================
+   Custom Scrollbar
+   ======================== */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: hsl(var(--background));
+}
+
+::-webkit-scrollbar-thumb {
+  background: hsl(var(--border));
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #FF9900;
+}
+
+/* ========================
+   Selection
+   ======================== */
+::selection {
+  background: rgba(255, 153, 0, 0.2);
+  color: hsl(var(--foreground));
+}
+
+/* ========================
+   Utility Classes
+   ======================== */
+@layer utilities {
+  .glass {
+    background: rgba(255, 255, 255, 0.03);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    border: 1px solid rgba(255, 255, 255, 0.06);
+  }
+
+  .glass-dark {
+    background: rgba(10, 10, 20, 0.7);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border: 1px solid rgba(255, 255, 255, 0.06);
+  }
+
+  .light .glass {
+    background: rgba(255, 255, 255, 0.7);
+    border: 1px solid rgba(0, 0, 0, 0.08);
+  }
+
+  .gradient-text {
+    background: linear-gradient(135deg, #FF9900 0%, #FFB74D 50%, #A855F7 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  .gradient-text-cyan {
+    background: linear-gradient(135deg, #00D4FF 0%, #A855F7 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  .section-padding {
+    @apply py-20 px-4 sm:px-6 lg:px-8;
+  }
+
+  .container-max {
+    @apply max-w-7xl mx-auto;
+  }
+
+  .heading-xl {
+    @apply font-heading text-4xl sm:text-5xl lg:text-6xl font-bold leading-tight tracking-tight;
+  }
+
+  .heading-lg {
+    @apply font-heading text-3xl sm:text-4xl font-bold leading-tight;
+  }
+
+  .heading-md {
+    @apply font-heading text-2xl sm:text-3xl font-semibold;
+  }
+
+  .text-muted {
+    @apply text-muted-foreground;
+  }
+}
+
+/* ========================
+   Aurora Background
+   ======================== */
+.aurora-bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 0;
+  overflow: hidden;
+}
+
+.aurora-orb {
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(80px);
+  opacity: 0.12;
+  animation: aurora 20s ease-in-out infinite;
+}
+
+.aurora-orb-1 {
+  width: 600px;
+  height: 600px;
+  background: radial-gradient(circle, #FF9900, transparent);
+  top: -200px;
+  left: -100px;
+  animation-delay: 0s;
+}
+
+.aurora-orb-2 {
+  width: 500px;
+  height: 500px;
+  background: radial-gradient(circle, #A855F7, transparent);
+  top: 20%;
+  right: -100px;
+  animation-delay: -7s;
+}
+
+.aurora-orb-3 {
+  width: 400px;
+  height: 400px;
+  background: radial-gradient(circle, #00D4FF, transparent);
+  bottom: 10%;
+  left: 30%;
+  animation-delay: -14s;
+}
+
+/* ========================
+   Focus Styles (Accessibility)
+   ======================== */
+:focus-visible {
+  outline: 2px solid #FF9900;
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+/* ========================
+   Reduced Motion
+   ======================== */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  ::before,
+  ::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* ========================
+   Typography Enhancements
+   ======================== */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Space Grotesk', 'Inter', system-ui, sans-serif;
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+}
+
+code {
+  font-family: 'JetBrains Mono', 'Fira Code', monospace;
+}
+
+/* ========================
+   Reading Progress Bar
+   ======================== */
+.progress-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 2px;
+  background: linear-gradient(90deg, #FF9900, #A855F7);
+  z-index: 9999;
+  transition: width 0.1s ease;
+}
+
+/* ========================
+   Page Transitions
+   ======================== */
+.page-enter {
+  opacity: 0;
+  transform: translateY(12px);
+}
+
+.page-enter-active {
+  opacity: 1;
+  transform: translateY(0);
+  transition: opacity 0.4s ease, transform 0.4s ease;
+}
+
+.page-exit {
+  opacity: 1;
+}
+
+.page-exit-active {
+  opacity: 0;
+  transition: opacity 0.2s ease;
+}

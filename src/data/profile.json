@@ -1,0 +1,71 @@
+{
+  "name": "Shivansh Sagar",
+  "initials": "SS",
+  "tagline": "Building the cloud, one architecture at a time.",
+  "titles": [
+    "Senior AWS Cloud Engineer",
+    "DevOps Engineer",
+    "Solutions Architect",
+    "FinOps Consultant",
+    "Automation Engineer"
+  ],
+  "hero_typing": [
+    "Building Cloud Infrastructure",
+    "Automating AWS at Scale",
+    "Designing Serverless Systems",
+    "Optimizing Cloud Costs",
+    "Architecting Enterprise Solutions"
+  ],
+  "stats": {
+    "experience": 5,
+    "experience_label": "Years Experience",
+    "projects": 100,
+    "projects_label": "AWS Projects",
+    "sops": 50,
+    "sops_label": "SOPs Created",
+    "uptime": "99.99%",
+    "uptime_label": "Production Uptime",
+    "customers": 20,
+    "customers_label": "Enterprise Customers",
+    "cloud_platforms": 3,
+    "cloud_platforms_label": "Cloud Platforms",
+    "aws_services": 100,
+    "aws_services_label": "AWS Services Used"
+  },
+  "about": {
+    "summary": "AWS-focused Cloud Engineer with 5+ years of experience designing, automating, optimizing, and supporting enterprise cloud environments. Strong expertise across AWS with working experience in Azure and GCP. Passionate about Infrastructure as Code, serverless architectures, cloud security, observability, automation, FinOps, and AI-powered cloud solutions.",
+    "creative_edge": "Beyond cloud architecture, I maintain a strong creative and detail-oriented edge. My side projects include generating conceptual designs and video presentations for 1/7 scale commercial character figurines and producing high-definition visual assets for commercial catalogs. I bring this same meticulous eye for design and consistency to my engineering work.",
+    "mission": "To architect cloud solutions that are not only technically excellent but also economically efficient, secure, and built to last \u2014 enabling businesses to move faster with confidence.",
+    "philosophy": "Cloud infrastructure should be invisible to the business and invincible to failure.",
+    "currently_learning": [
+      "Amazon Bedrock",
+      "Agentic AI",
+      "MCP (Model Context Protocol)",
+      "OpenTofu",
+      "Platform Engineering",
+      "AI Agents"
+    ],
+    "hobbies": [
+      "3D Rendering",
+      "Figurine Design",
+      "Technical Writing",
+      "Open Source",
+      "Cloud Architecture"
+    ]
+  },
+  "social": {
+    "github": "https://github.com/shivanshsagar",
+    "linkedin": "https://linkedin.com/in/shivanshsagar",
+    "email": "hello@shivanshsagar.com",
+    "x": "https://x.com/shivanshsagar",
+    "medium": "https://medium.com/@shivanshsagar",
+    "hashnode": "https://hashnode.com/@shivanshsagar",
+    "devto": "https://dev.to/shivanshsagar",
+    "youtube": "https://youtube.com/@shivanshsagar",
+    "stackoverflow": "https://stackoverflow.com/users/shivanshsagar"
+  },
+  "resume_url": "/resume.pdf",
+  "calendly_url": "https://calendly.com/shivanshsagar",
+  "location": "India",
+  "availability": "Open to Consulting & Full-time Opportunities"
+}

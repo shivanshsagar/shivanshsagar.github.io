@@ -1,0 +1,56 @@
+[
+  {
+    "year": "2021",
+    "title": "Cisco CCNA Certification",
+    "description": "Earned Cisco CCNA certification, building strong networking fundamentals.",
+    "icon": "award"
+  },
+  {
+    "year": "2022",
+    "title": "AWS Solutions Architect Certified",
+    "description": "Earned AWS Certified Solutions Architect \u2013 Associate, validating cloud architecture expertise.",
+    "icon": "cloud"
+  },
+  {
+    "year": "2022",
+    "title": "Joined CloudKeeper",
+    "description": "Joined CloudKeeper as a Senior AWS Cloud Engineer, taking on enterprise consulting responsibilities.",
+    "icon": "briefcase"
+  },
+  {
+    "year": "2023",
+    "title": "GCP Associate Cloud Engineer",
+    "description": "Expanded multi-cloud expertise with Google Cloud certification.",
+    "icon": "award"
+  },
+  {
+    "year": "2023",
+    "title": "Built AI Ticket Summarizer",
+    "description": "Delivered the AI Ticket Summarizer using Amazon Bedrock, saving 2+ hours/day per engineer.",
+    "icon": "cpu"
+  },
+  {
+    "year": "2023",
+    "title": "Created 50+ SOPs",
+    "description": "Authored over 50 Standard Operating Procedures and runbooks for enterprise cloud operations.",
+    "icon": "file-text"
+  },
+  {
+    "year": "2024",
+    "title": "WAR Intelligence Platform",
+    "description": "Launched the WAR Intelligence Platform, automating AWS Well-Architected Reviews.",
+    "icon": "layers"
+  },
+  {
+    "year": "2024",
+    "title": "Architecture Reviews for 20+ Customers",
+    "description": "Conducted architecture reviews for over 20 enterprise customers across multiple industries.",
+    "icon": "users"
+  },
+  {
+    "year": "2024",
+    "title": "Customer Appreciation Award",
+    "description": "Recognized by enterprise customers for exceptional consulting and support quality.",
+    "icon": "star"
+  }
+]

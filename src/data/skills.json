@@ -1,0 +1,116 @@
+{
+  "categories": [
+    {
+      "name": "Cloud Platforms",
+      "icon": "cloud",
+      "skills": [
+        { "name": "AWS", "level": 5, "years": 5 },
+        { "name": "Azure", "level": 3, "years": 2 },
+        { "name": "GCP", "level": 3, "years": 2 }
+      ]
+    },
+    {
+      "name": "Infrastructure as Code",
+      "icon": "code",
+      "skills": [
+        { "name": "Terraform", "level": 5, "years": 4 },
+        { "name": "CloudFormation", "level": 5, "years": 4 },
+        { "name": "OpenTofu", "level": 3, "years": 1 },
+        { "name": "Ansible", "level": 3, "years": 2 }
+      ]
+    },
+    {
+      "name": "Containers & Orchestration",
+      "icon": "box",
+      "skills": [
+        { "name": "Docker", "level": 5, "years": 4 },
+        { "name": "Kubernetes", "level": 4, "years": 3 },
+        { "name": "ECS", "level": 5, "years": 4 },
+        { "name": "EKS", "level": 4, "years": 3 }
+      ]
+    },
+    {
+      "name": "Networking",
+      "icon": "network",
+      "skills": [
+        { "name": "VPC Design", "level": 5, "years": 5 },
+        { "name": "Route 53", "level": 5, "years": 5 },
+        { "name": "CloudFront", "level": 5, "years": 4 },
+        { "name": "Transit Gateway", "level": 4, "years": 3 },
+        { "name": "VPN / Direct Connect", "level": 4, "years": 3 }
+      ]
+    },
+    {
+      "name": "Storage & Databases",
+      "icon": "database",
+      "skills": [
+        { "name": "S3", "level": 5, "years": 5 },
+        { "name": "EFS / FSx", "level": 4, "years": 3 },
+        { "name": "Aurora / RDS", "level": 4, "years": 4 },
+        { "name": "DynamoDB", "level": 4, "years": 3 },
+        { "name": "ElastiCache", "level": 3, "years": 2 }
+      ]
+    },
+    {
+      "name": "Security",
+      "icon": "shield",
+      "skills": [
+        { "name": "IAM", "level": 5, "years": 5 },
+        { "name": "KMS", "level": 5, "years": 4 },
+        { "name": "Secrets Manager", "level": 5, "years": 4 },
+        { "name": "GuardDuty", "level": 4, "years": 3 },
+        { "name": "Security Hub", "level": 4, "years": 3 },
+        { "name": "CloudTrail", "level": 5, "years": 5 }
+      ]
+    },
+    {
+      "name": "Monitoring & Observability",
+      "icon": "activity",
+      "skills": [
+        { "name": "CloudWatch", "level": 5, "years": 5 },
+        { "name": "Grafana", "level": 4, "years": 3 },
+        { "name": "Prometheus", "level": 4, "years": 3 },
+        { "name": "OpenSearch", "level": 3, "years": 2 }
+      ]
+    },
+    {
+      "name": "CI/CD & Automation",
+      "icon": "git-branch",
+      "skills": [
+        { "name": "GitHub Actions", "level": 5, "years": 4 },
+        { "name": "Jenkins", "level": 4, "years": 3 },
+        { "name": "AWS CodePipeline", "level": 4, "years": 3 }
+      ]
+    },
+    {
+      "name": "Programming",
+      "icon": "terminal",
+      "skills": [
+        { "name": "Python", "level": 5, "years": 5 },
+        { "name": "Bash", "level": 5, "years": 5 },
+        { "name": "PowerShell", "level": 4, "years": 3 },
+        { "name": "YAML / JSON", "level": 5, "years": 5 }
+      ]
+    },
+    {
+      "name": "AI & Machine Learning",
+      "icon": "cpu",
+      "skills": [
+        { "name": "Amazon Bedrock", "level": 4, "years": 2 },
+        { "name": "Claude AI", "level": 4, "years": 2 },
+        { "name": "Agentic AI", "level": 3, "years": 1 },
+        { "name": "MCP", "level": 3, "years": 1 }
+      ]
+    },
+    {
+      "name": "FinOps",
+      "icon": "dollar-sign",
+      "skills": [
+        { "name": "Cost Optimization", "level": 5, "years": 3 },
+        { "name": "Reserved Instances", "level": 5, "years": 3 },
+        { "name": "Savings Plans", "level": 5, "years": 3 },
+        { "name": "Cost Anomaly Detection", "level": 4, "years": 2 }
+      ]
+    }
+  ]
+}
