@@ -1,0 +1,1 @@
+import{j as a,m as r}from"./motion-CSClAN2k.js";function s({children:i,delay:o=0,direction:t="up",className:e}){const n={opacity:0,y:t==="up"?32:0,x:t==="left"?-32:t==="right"?32:0};return a.jsx(r.div,{initial:n,whileInView:{opacity:1,y:0,x:0},viewport:{once:!0,margin:"-80px"},transition:{duration:.6,delay:o,ease:[.21,.47,.32,.98]},className:e,children:i})}export{s as S};
